@@ -4,6 +4,7 @@ Nesse projeto manipulamos e acessamos dados de um banco já implementado com que
 
 Projeto 19 da [Trybe](https://wwww.betrybe.com), módulo de Back-End.
 
+![Avaliação com 100% dos requisitos completos](./percentual-requisitos.png)
 ## O Projeto
 
 #### Queries:
