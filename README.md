@@ -1,10 +1,36 @@
-# :construction: README em construção ! :construction:
-<!-- Olá, Tryber!
-Esse é apenas um arquivo inicial para o README do seu projeto.
-É essencial que você preencha esse documento por conta própria, ok?
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
-:warning: IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
--->
+# MySQL All For One - Back-End Project
+
+Nesse projeto manipulamos e acessamos dados de um banco já implementado com queries SQL.
+
+Projeto 19 da [Trybe](https://wwww.betrybe.com), módulo de Back-End.
+
+## O Projeto
+
+#### Queries:
+   - Buscando (`SELECT`), inserindo (`INSERT INTO`), atualizando (`UPDATE`...`SET`) e deletando (`DELETE`) na tabela MySQL.
+   - Realizando operações com `+ `, `-`, entre outros e contando com `COUNT`
+   - Queries com `WHERE`, `ORDER BY`, `LIMIT`e `DESC`, entre outros.
+
+## Instalação 
+
+#### 1- Clonar o repositório
+
+```git clone git@github.com:sallybdiament/Project-19-MySQL-All-For-One.git```
+
+#### 2 - Subir os containers `node` e `db` utilizando o docker-compose
+
+Na raíz do projeto: ```docker-compose up -d```
+
+#### 3 - Abrir o terminal do container `all_for_one`
+
+```docker exec -it all_for_one bash```
+
+#### 4 - Instalar as dependências
+
+No terminal do container: ```npm install```
+
+#### \*Foi utilizado o MySQL Workbench para visualizar as tabelas e as queries.\*
+
+## Tecnologias
+ - SQL
+ - Docker CLI
